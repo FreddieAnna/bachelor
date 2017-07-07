@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rimraf dist && npm run server-versions && npm run webpack -- --config  config/webpack.prod.js --progress --profile --bail",
     "build:dev": "rimraf dist && npm run server-versions && npm run webpack -- --config  config/webpack.dev.js --progress --profile --bail",
-    "start:dist": "npm run server-versions && wsrv -s dist/ -p 3000 -a 0.0.0.0",
+    "start:dist": "npm run server-versions && wsrv -s dist/ -p 3000 -a 157.97.109.190",
     "start": "npm run server-versions && npm run webpack-dev-server -- --config config/webpack.prod.js --progress  --content-base app/",
     "start:dev": "npm run server-versions && npm run webpack-dev-server -- --config config/webpack.dev.js --progress --content-base app/",
     "test": "rimraf coverage && karma start --single-run",
@@ -110,7 +110,7 @@
     "ts-loader": "^2.0.0",
     "tslint": "^4.4.2",
     "tslint-loader": "^3.3.0",
-    "typescript": "^2.1.6",
+    "typescript": "2.3.4",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0",
     "webpack-merge": "^2.6.1",

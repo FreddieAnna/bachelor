@@ -155,7 +155,7 @@ module.exports = {
     compress: true,
     port: 3000,
     historyApiFallback: true,
-    host: '0.0.0.0',
+    host: '157.97.109.190',
     inline: true
   },
 

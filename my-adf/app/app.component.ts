@@ -30,8 +30,8 @@ declare var document: any;
 export class AppComponent {
    searchTerm: string = '';
 
-  ecmHost: string = 'https://e-skydoc.fraport.de/?ip=10.10.114.11';
-  bpmHost: string = 'https://e-skydoc.fraport.de/?ip=10.10.114.12';
+  ecmHost: string = 'https://157.97.109.199/share';
+  bpmHost: string = 'https://157.97.109.190/activiti-app';
 
     constructor(private authService: AlfrescoAuthenticationService,
                 private router: Router,
